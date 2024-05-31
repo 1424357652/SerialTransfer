@@ -7,7 +7,7 @@
 ## 项目简介
 
 SerialTransfer 是一个高效的串行数据传输库，适用于C/C++ 项目,并且横跨linux与windows平台。它提供简单且灵活的 API，使得串行通信变得轻松和高效。
-新增功能，linux_serial_receive.c支持二进制可执行文件的发送与传输
+新增功能，kaifaban.c支持二进制可执行文件的发送与传输
 windows平台程序尚未完成收发二进制程序，若想与linux开发板完成二进制收发则需要进入ubuntu虚拟机安装ch340驱动后，则可以进行可执行二进制程序的收发
 
 ## 目录
@@ -49,7 +49,7 @@ windows平台程序尚未完成收发二进制程序，若想与linux开发板�
 1. 克隆仓库：
    
    ```sh
-   git clone https://github.com/bartgogo/SerialTransfer.git
+   git clone https://github.com/1424357652/SerialTransfer.git
    cd SerialTransfer
    ```
 
@@ -115,7 +115,7 @@ windows平台程序尚未完成收发二进制程序，若想与linux开发板�
 - `main.c`：主程序文件，包含程序的入口函数和逻辑控制。
 - `serial.c`：实现windows平台串口通信的核心函数。
 - `serial.h`：串口通信函数的头文件，声明函数接口。
-- `linux_serial_receive.c`：用于在Linux环境下串口发送与接收程序。
+- `kaifaban.c`：用于在Linux环境下串口发送与接收程序。
 - `CMakeLists.txt`：CMake配置文件，用于构建项目。
 - `Makefile`：Makefile文件，用于在Linux或者在windows gcc环境下编译项目。
 
