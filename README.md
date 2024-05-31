@@ -116,7 +116,6 @@ windows平台程序尚未完成收发二进制程序，若想与linux开发板�
 - `serial.c`：实现windows平台串口通信的核心函数。
 - `serial.h`：串口通信函数的头文件，声明函数接口。
 - `kaifaban.c`：用于在Linux环境下串口发送与接收程序。
-- `CMakeLists.txt`：CMake配置文件，用于构建项目。
 - `Makefile`：Makefile文件，用于在Linux或者在windows gcc环境下编译项目。
 
 ### 贡献
